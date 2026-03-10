@@ -1,12 +1,5 @@
-Absolutely — here are **50 HackerRank-style Python coding questions** with **expected input and output**. I’ve kept them in a clean assignment/test-friendly format so you can directly use them for **practice sheets, lab tests, Moodle, or interview preparation**.
 
----
-
-# 50 HackerRank-Style Python Coding Questions
-
-## With Expected Input and Output
-
----
+# Interview Oriented Python Coding Questions
 
 ## 1. Sum of Two Numbers
 
