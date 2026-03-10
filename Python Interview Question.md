@@ -1,9 +1,7 @@
 
 # 100 Python Interview / Viva Questions
 
----
-
-# 1. Introduction to Python (1–10)
+# 1. Introduction to Python 
 
 1. What is Python?
 2. Who developed Python and when was it released?
@@ -16,9 +14,7 @@
 9. What is the role of pip in Python?
 10. What is the difference between REPL mode and script mode?
 
----
-
-# 2. Basic Syntax & Structure (11–20)
+# 2. Basic Syntax & Structure 
 
 11. What is indentation in Python?
 12. Why is indentation mandatory in Python?
@@ -31,9 +27,7 @@
 19. What is the use of the `print()` function?
 20. What is the use of the `input()` function?
 
----
-
-# 3. Variables & Data Types (21–35)
+# 3. Variables & Data Types 
 
 21. What is a variable in Python?
 22. What are the rules for naming variables?
@@ -57,9 +51,7 @@ Example:
 a, b, c = 10, 20, 30
 ```
 
----
-
-# 4. Operators (36–50)
+# 4. Operators 
 
 36. What are operators in Python?
 37. What are arithmetic operators?
@@ -77,9 +69,7 @@ a, b, c = 10, 20, 30
 49. What are identity operators?
 50. What is the difference between `is` and `==`?
 
----
-
-# 5. Strings (51–65)
+# 5. Strings 
 
 51. What is a string in Python?
 52. How can you create a string in Python?
@@ -123,9 +113,7 @@ Example:
 result = "Positive" if x > 0 else "Negative"
 ```
 
----
-
-# 7. Loops (81–95)
+# 7. Loops 
 
 81. What is a loop in programming?
 82. What is the difference between `for` loop and `while` loop?
@@ -185,7 +173,7 @@ print(type(None))
 print(5 == 5.0)
 ```
 
----
 
 
-Just tell me and I’ll prepare them. 🚀
+
+
