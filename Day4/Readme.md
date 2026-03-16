@@ -6,7 +6,7 @@ Create a **Python class `Student`** to manage student information.
 
 The class should have the following features:
 
-1. A **class variable** `school_name` set to `"AI Learning Academy"`.
+1. A **class variable** `school_name` set to `"CDAC : AI Learning Academy"`.
 2. A **constructor (`__init__`)** that accepts:
 
    * student name
