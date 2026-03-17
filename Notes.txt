@@ -1,0 +1,1345 @@
+Download Python :https://www.python.org/downloads/
+Python documentation : https://docs.python.org/3/tutorial/index.html
+    
+
+Day 1 : Introduction to Python
+----------------------------------
+Date: 10/03/2026
+Topics:
+    
+    -Installing Python
+    -Introduction to different Python IDE
+    -Basic Syntax
+	-Your First Python Program
+    -Data Types, Variables, Operators, Input/output
+    -Declaring variable, data types in programs
+    
+   
+  Python:
+  -high-level, general purpose programming language.
+  -known for its simple, readable, and English like syntax
+  -desined to make programming easy to lear and to use
+  -creted by Guido Van Raossum
+  
+  High-level : hides the details of low level management and hardware details from the programmer.
+  
+  Use of python:
+  -Desktop applications
+  -Web applications
+  -Database applications
+  -Networking applications
+  -Games
+  -Data analysi applications
+  -ml applications
+  -AI applications
+  
+  Features of Python:
+  1. Simple & Easy to Learn:
+  ---------------------------
+  Ex: 
+  Java:
+  class  Test{
+  public static void main(String args[]){
+	System.out.println("Hello");
+  }
+  }
+  
+  python:
+  print("Hello")
+  
+  2. Freeware and Open source:
+  ----------------------------
+  -We can use Python software without paying any license fee.
+  
+  3. High-level Programming Language:
+  -----------------------------------
+  - Hides the details of low level management and hardware details from the programmer.
+  
+  Ex:
+  x = 10
+  print(x)
+  print(type(x))
+  
+  4. Platform Independent:
+  ------------------------
+  -WORA: Write once and Run anywhere
+  
+  5.Portability:
+  --------------
+  -We can migrate python programs from one platform to another ver easily.
+  
+  6. Dynamically typed Language:
+  ---------------------------------
+  Ex: 
+  Java:
+  int a=10;
+  long b=10;
+  
+  Python:
+  x = 10.56
+  x = "Amit"
+  -we are not required to declare the data type of variables.
+  
+  7.Procedure-oriented and Object Oriented:
+  -----------------------------------------
+  -we get the benefit of security, reusability and modularity
+  
+  8. Interpreted language:
+  --------------------------
+  -We are not required to explicitly compile Python programs.
+  -Internally Python Interpreter performs compilation.
+  -If compilation fails, the interpreter raises syntax error.
+  -If compilation is succesful, then PVM(Python Virtual Machine) executes the program.
+  
+  9. Extensible:
+  ------------------
+  -We can use programs written in other language (like C,C++) inside python.
+  
+  10. Embedded:
+  --------------
+  
+  11. Large Standard Library:
+  ----------------------------
+  -In python we have huge amount of built-in modules fro many task.
+  
+  Flavors of Python:
+  -------------------
+  1. CPython
+  2. JPython or Jython
+  3. IronPython
+  4. PyPy
+  5. RubyPython
+  6. Anaconda Python
+  
+  IDE used for Python:
+  --------------------
+  1. VS code
+  2. PyCharm
+  3. Jupyter Notebook
+  4. IDLE
+  5. Spider
+  
+  Modes of Python:
+  ----------------
+  1. REPL : Read Evaluate Print Loop
+	-Line by Line
+	-Testing
+	-Cannot save code
+	
+  2. Script
+	-Entire file
+	-Project
+	-.py extension we can save code
+	
+Home-work : Compare: C / C++ /Java / Python / Javascript
+
+
+Execution of Python program:
+-----------------------------
+1. Write Python code(.py)
+2. Python interpreter reads the file
+3. Lexical Analysis (Tokenization)
+4. Parsing
+5. Compilation to Bytecode (.pyc)
+6. Bytecode sent to Python Virtual Machine
+7. PVM executes instructions
+8. Output is produced.
+
+Token: smallest individual unit in a program.
+
+1. Identifiers
+2. Keywords
+3. Literals
+4. Delimiters
+5. Operators
+
+
+1. Identifier: 
+ -name given to variables, functions, classes, modules or objects in python.
+
+Ex: 
+	name = "Ram"
+	age = 20
+	x = 23.567
+	def x1():
+	class = 34
+	for = 2
+	_x
+	
+	total
+	Total
+	
+2. Keywords:
+-Keywords are special reserved words that have predefined meaning.
+-35 keywords in python
+
+3. Reserved Words:
+-Reserved words that cannot be used as variable names because they have special meaning.
+-Keyword themselves are reserve words.
+
+Ex: 
+class =10 # NA
+
+class_na = 100 #Allowed
+
+
+4. Literals or constants
+-Constants are the values that do ot change during program execution
+Ex: 
+
+PI = 3.1415
+MAX_SIZE =100
+
+Variables:
+-Variables are name used to store data in memory.
+Ex:
+ a = 10
+ name = "CDAC"
+ name = "CDAC"
+
+Type of variable:
+-----------------
+type(): provide the data type of a variable
+
+
+Ex:
+ a = 10
+ name = "CDAC"
+ name1 = "CDAC"
+ 
+Python Data types:
+------------------
+Data types : represents the type of data stored inside a variable.
+-what kind of value is stored, and what operations can be done on datatype.
+
+Data type:
+1. Number:
+	 -int
+	 -float
+	 -complex
+	 
+2. Boolean
+3. Set
+4. Dict
+5.Sequence
+	-string
+	-list
+	-tuple
+
+Built in Data types:
+--------------------
+1. type()
+2. id()
+
+
+Integer data type:
+-----------------
+-whole number
+
+Ex: 
+a = 10
+b = -25
+c = 0
+
+print(type(a))
+
+1.Decimal (Base 10) : 0 to 9
+Ex: 
+a = 10
+b = -25
+c = 0
+
+2.Binary (Base 2) : 0 ,1 : b or B
+Ex: 
+a = 0b111
+b = 0B101
+	
+	
+3.Octal (Base 8) : 0 to 7 : o or O
+4.Hexadecimal (Base 16): 0 to 9, A to F
+	-x or X
+	
+#String : str type represents textual data
+# A string which is a sequence of characters enclosed in quotes
+# ' '
+# " "
+
+#Single line string
+s1 = 'Cdac - mumbai'
+s2 = "kharghar"
+
+print(type(s1))
+print(s1)
+print(type(s2))
+print(s2)
+#-------------------
+
+#Multi line string
+s1 = '''Cdac 
+-
+ mumbai'''
+s2 = """kharghar 
+mumbai"""
+
+print(type(s1))
+print(s1)
+print(type(s2))
+print(s2)
+
+
+s = """ Test data for PGCP-AI"""
+print(s)
+
+#String Indexing:
+    
+#   -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 ----> NEGATIVE INDEXING
+#     C  D  A  C  M  U  M  B  A  I
+#     0  1  2  3  4  5  6  7  8  9 ---->POSITIVE INDEXING
+#Accessing character:
+    
+    print(s[-5]) # U
+    print(s[-0]) 
+    
+	
+Type Casting:
+---------------
+int-:
+ int()
+ float()
+ complex()
+ bool()
+ str()
+ 
+float-:
+ int()
+ float()
+ complex()
+ bool()
+ str()
+
+complex-:
+ int()
+ float()
+ complex()
+ bool()
+ str()
+ 
+bool-:
+ int()
+ float()
+ complex()
+ bool()
+ str()
+ 
+str-:
+ int()
+ float()
+ complex()
+ bool()
+ str()
+ 
+ Variables, Operators, Input/output
+    -Declaring variable, data types in programs
+	-Control structures
+	-Loops
+	-Advanced data structure
+	
+Operators:
+1. Arithmetic Operator:
+2. Assignment operator
+3. Relational operator
+4. Logical operator
+5. Membership operator
+6. Identity operator
+7.Ternary operator
+
+Control structure:
+-if, elif, else
+-Nested conditions
+-match-case
+-pass, break, continue
+
+
+1. if, elif and else
+
+syntax:
+ 
+if condition:
+    statement
+elif condition:
+    statement
+else:
+    statement
+
+match variable:
+    case value1:
+        statement
+    case value2:
+        statement
+    case _:
+        default
+		
+-match-case is useful for clean multi-branch logic
+-pass is a placeholder
+-break stops a loop completely
+-continue skips only the current iteration
+	
+Loops:
+for loop:
+
+	for variable in sequence:
+		statement
+		
+while loop:
+	while condition:
+    statement
+
+HW: 
+Ex:1
+Shop: 7units per product.40%discount will be implemented if multiple product is purchased.
+
+Ex:2
+Employee bonus calculation. 
+Exp >=5 yrs & performance rating >= 4 then bonus 4%
+Exp >=4 yrs & performance rating >= 3 then bonus 3%
+otherwise no bonus
+
+
+List : built-in data type used to store multiple values in a single variable.
+
+A list is:
+	ordered
+	mutable
+	allows duplicates
+	heterogeneous
+	indexable
+	sliceable
+	iterable
+	Most used methods:
+Methods:
+	append()
+	extend()
+	insert()
+	remove()
+	pop()
+	clear()
+	index()
+	count()
+	sort()
+	reverse()
+	copy()
+
+List
+	Ordered
+	Mutable
+	Allows duplicates
+
+Tuple
+	Ordered
+	Immutable
+	Allows duplicates
+
+Set
+	Unordered
+	Mutable
+	No duplicates
+	Only hashable elements allowed
+
+Dictionary
+	Key-value pair
+	Keys must be unique and hashable
+	Values can be anything
+	Mutable
+	
+Day 3 : Introduction to Python
+----------------------------------
+Date: 12/03/2026
+Topics:
+    
+   	-Advanced data structure
+	-List
+	-Tuple
+	-Set
+	-Dictionary
+	-Functions
+
+Functions:
+-----------
+-A function is a named, reusable block of code that performs a specific task.
+- It helps to avoid repetition of code
+- It improves readability of code
+- It organize program in better manure
+- It make dubugging easier
+- It reuse logic whenever needed.
+
+Syntax:
+
+def function_name(parameter):
+	statements
+	return value
+	
+Types: of arguments:
+    
+1. Positional arguments
+2. Keyword arguments
+3. Default arguments
+4. Variable length argument
+
+def sub(a,b):
+	print(a-b)
+	
+sub(10,5)
+sub(5,10)
+
+1. Positional arguments:
+--------------------------
+- The order of parameter is important.
+-Vaues are assigned is according to their position
+
+def sub(a,b):
+	print(a-b)
+	
+sub(10,5)
+sub(5,10)
+
+2. Keyword arguments:
+---------------------
+-In keyword arguments, the parameter name while passing the value.
+-Order doesnot matter
+
+
+def sub(a,b):
+	print(a-b)
+	
+sub(a=10,b=5)
+sub(b=10,a=5)
+
+3. Default arguments:
+----------------------
+-The default argument is a parameter that already has a value
+-If the caller does not provide a value, the default value is used.
+
+
+def greet(name="Test"):
+	print("Hi", name)
+	
+greet("Amit")
+greet()
+
+4. Variable length argument(*args):
+-----------------------------------
+- used when the number of arguments is not known in advanced
+-*args collects multple values into a tuple
+
+def sum(*n):
+	s = 0
+	for i in n:
+		s+=i
+	print(s)
+	
+sum(10,20)
+sum(10,20,30,40,50)
+
+
+Return statement:
+-----------------
+-return used to send a value back from the function
+-return one single
+-return multiple values
+-return nothing (None)
+
+def sqr(a):
+	return a*a
+	
+x = sqr(5)
+print(x)
+print(sqr(5))
+
+Ex:
+def sqr(a):
+	print( a*a )
+	
+x = sqr(5)
+print(x)
+print(sqr(5))
+
+Ex:
+
+def calc(a,b):
+	return a+b, a-b, a*b
+	
+x,y,z  calc(10,5)
+print(x,y,z)	
+
+
+Recursive function:
+===================
+-A recursive function is a function that call itself.
+-It is usefl for problems that can be broken into smaller version of similar problem.
+-Every recursive function must base condition
+-Without base condition, recursion will continue forever (infinite loop) and it will cause error.
+Ex:
+
+def fact(n):
+	if n==0:
+		return 1
+	return n *fact(n-1)
+	
+print(fact(5))
+
+Ex: 
+def fun():
+	return fun()
+	
+func()
+	
+Lambda function:
+----------------
+-It is a small anonymous function
+-Anonymous meaning it may not have any function name
+-Generally it is written in one line
+-Useful for short operations
+syntax:
+
+lamba arguments: expression
+
+Ex:
+
+lambda n: n*n
+
+sq = lambda n: n*n
+
+print(sq)
+
+Day 4 : OOPS in Python
+----------------------------------
+Date: 12/03/2026
+Topics:
+    
+   	-OOPs
+	-Class
+	-Object
+	-OOPs Pillars
+
+OOPs: Object Oriented programming
+-It is a programming paradigm that organize a program using classes and objects.
+-Instead of writing programs as a procedures, OOP organize software into objects that contain both data and behaviour.
+
+Ex: Laptop : Realtime entity : Object
+
+Advantages:
+---------
+1. Code Reusability:
+	-classes can be reused using inheritance.
+2. Modularity:
+	-Programs can be divided into small parts
+3. Security:
+	-Data hiding can be implemented using encapsulation
+4. Easy Maintenance:
+	-Code becomes easy to update and management
+5.Flexibility:
+	-Supports polymorphism
+6.Real-world modelling:
+	-Programs resemble the real world objectswhich provides real time solution.
+	
+class:
+--------
+-A class is a blueprint or template used to create objects
+-It defines :
+	-variables
+	-methods
+	-behaviour of the concepts
+
+Syntax:
+class Classname:
+	state1
+	
+Ex:
+class Cake:
+	pass
+
+Object:
+----------
+-An object is an instance of a class
+-It represents real-world entity
+
+Syntax: 
+object_name = Classname()
+
+Ex: 
+class Student: #defined class
+	print("Hello")
+	def display(self): #defined function
+		print("Getting display")
+
+s1 = Student() # deined Object
+s1.display()
+
+Importance of 'self' keyword:
+---------------------------
+self : is used to refer to the current instance (object) of the class
+
+1. Refers to current object
+----------------------------
+EX:
+class Student: #defined class
+	print("Hello")
+	def display(self): #defined function
+		print("Getting display")
+
+s1 = Student() # deined Object
+s2 = Student()
+s1.display()
+
+2. Used to access instance variable
+-------------------------------------
+-allows method to access the variables of the object.
+class Employee:
+    #self : referes to current object
+    def __init__(self, emp_id, emp_name, emp_salary): # initialize object data
+        self.emp_id = emp_id
+        self.emp_name = emp_name
+        self.emp_salary = emp_salary
+     
+        
+    def show(self): # instance method
+       print("Empl Id:",self.emp_id)
+       print("Empl Name:",self.emp_name)
+       print("Empl Salary:",self.emp_salary)
+    
+emp1 = Employee(111,"Ram", 10000)
+emp1.show()
+print()
+emp2 = Employee(112,"Ravan", 1000)
+emp2.show()
+
+3. Used as Instance and Local variable:
+----------------------------------------
+Ex:
+class Employee:
+	def __init__(self, name):
+		self.name = name
+		
+class Employee:
+	def __init__(self, n1):
+		self.name = n1
+
+name : parameter (Local variable)
+self.name : instance variable
+
+4. Used to call other method of same class:
+-------------------------------------------
+Ex:
+class Employee:
+    def hello(self):
+        print("Hello everyone!")
+        
+    def display(self):
+        self.hello() #display() calls hello()
+        
+emp = Employee()
+emp.display()
+
+5. 
+Every object can have their own data:
+--------------------------------------
+Ex:
+class Employee:
+    def __init__(self, name):
+        self.name = name # Own value for object using self
+        
+
+emp1 = Employee("Python")
+emp2 = Employee("Java")
+
+print(emp1.name)
+print(emp2.name)
+
+-self represents the current object
+-It can be used to access instance variables and methods
+-The first parameter in instance method must be self
+-It is automatically passed values when an object calles a method.   
+
+Constructors:
+--------------
+-A constructor is a special method that is automatically called when an object of a class is created.
+
+Syntax:
+	__init__()
+	
+-Initialize object variables(attributes)
+-Assign initial values to object properties.
+-Constructor executes when an object is created.
+
+Ex:
+class Abc:
+	def __init__(self):
+	# Initialize the values
+
+Types of constructor:
+---------------------
+1. Default constructor
+-Runs automatically when Employee() is created.
+-Default values are assigned to arttributes
+
+
+Ex:
+# Default constructor
+class Employee:
+    def __init__(self):
+        self.name = "Path nahi !"
+        self.sal = 0
+    
+    def display(self):
+        print("Name: ", self.name)
+        print("Salary: ", self.sal)
+        
+
+emp1 = Employee()
+
+emp1.display()
+
+
+2.Parameterized constructor 
+-Parameterized constructor takes parameter to initialize object attributes
+-Values are passed during object creation
+-Each object gets different values.
+
+Ex:
+# Parameterized constructor
+class Employee:
+    def __init__(self, name, sal):
+        self.name = name
+        self.sal = sal
+    
+    def display(self):
+        print("Name: ", self.name)
+        print("Salary: ", self.sal)
+        
+
+emp1 = Employee("Amit",50000)
+emp1.display()
+
+Types of variables:
+--------------------
+1. Instance variable
+2. Static variable ( Class variable)
+3. Local variables
+
+1. Instance variable:
+----------------------
+-Instance variables belongs to individual objects
+-Each object gets its own copy of these variable
+-They are defined using 'self' inside the method(inside constructor)
+
+Key pointers:
+-------------
+1. created when object is created.
+2. stored inside object memory.
+3. acces them using 'self' keyword.
+4. different object may have different values.
+
+2. Static variable ( Class variable)
+------------------------------------
+-static variables belongs to the class.
+-shared all objects of the class.
+-declared inside the class but outside the method.
+
+Key pointers:
+--------------
+-Only One copy exist in the class
+-All object share the same value
+-accessed using class name. 
+
+Ex:
+class Employee:
+    Company = "IBM" # Satic variable
+    def __init__(self, name, sal):
+        self.name = name
+        self.sal = sal
+        
+    def display(self):
+        print(self.name, self.sal,Employee.Company)#Call using class name
+        
+e1 = Employee("Ravi",50000)
+e2 = Employee("Rachana",60000)
+e1.display()
+e2.display()
+
+3. Local variables:
+--------------------
+-variables declared inside the method
+-accessible only within the method
+
+Key pointers:
+-------------
+-Temporary variable
+-Exist only during method execution
+-Not store in object memory
+Ex: 
+class Order:
+
+def calculateBill(self, price)
+	tax = price * 0.18
+	total = price + tax
+	
+	print("Price= ", price)
+	print("Tax= ", tax)
+	print("Total Amount= ", total)
+	
+o1 = Order()
+o1.calculateBill(1000)
+
+Types of methods in OOP:
+------------------------
+1. Instance method
+2. Class method
+3. Static method
+
+1. Instance method:
+-------------------
+-Instance methods operate on instance variables
+-They require object creation
+
+Key pointers:
+1. First parameter must be 'self'.
+2. Access instance variables
+3. called using objects
+
+Ex: Car Management
+-car : object
+-instance variable: speed, fuel
+-instance method: accelerate(), speed(), brake()
+
+def __init__(self, name,speed):
+	self.name = name
+	self.speed = speed
+	
+def accelerate(self, amount):
+	self.speed += amount
+	print(self.name, self.speed)
+	
+Note: Object created ---> Instance Method called ----> Access instance variables
+	
+2. Class method:
+-----------------
+-class methods operates on class variables
+- @classmethod :decorator
+ 
+Key pointer:
+1. First parameter is 'cls'
+2. Used to modify class variables
+3.Called using class name
+
+Ex:
+@classmethod
+def m1(cls):
+	print("Hello")
+
+Ex: Udemy online platform application:
+-class variable, 
+-constructor
+-1 static method / class method
+-multiple objects
+
+@classmethod
+def users(cls):
+	print(count)
+	
+3. Static method:
+-----------------
+-static method do not use instance varibles aor class variables.
+-They behave like normal functions placed inside the class.
+
+Key pointer:
+------------
+1. @staticmethod
+2. No self
+3. No cls
+4. Used for utility functions
+
+Ex: 
+
+class Test:
+
+	@staticmethod
+	def cal(a,b):
+		return a + b
+		
+Test.cal(10,20)
+
+Ex: Calculate the volume of cone using static method
+V =1/3*pi*r*r*h
+
+HW: Create an application for Library Management system using instance, static/class and local variables. Also use instance method, class method, static method.
+
+OOPs Pillars:
+-------------
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+
+-modular programming
+-Flexibility
+-code Reusability
+-Data Protection
+
+1. Abstraction:
+---------------
+-Hiding internal implementation details and showing only essential functionality to the user.
+
+Abstract class:
+----------------
+-An abstract class is a class that cannot be instantiated(cannot create object) and is used as a blueprint for other classes.
+-Abstract class contains:
+	-abstract methods
+	-normal methods
+	-variables
+-Abstract classes ensures that child classes implements certain required methods.
+
+Key pointers:
+--------------
+1. defined using ABC(Abstract Base Class) module
+2. Must inherit from ABC
+3. May contain abstract methods
+4. cannot create objects of abstract class
+5. child classes must implement abstract methods 
+
+Syntax:
+
+from abc import ABC, abstractmethod
+
+class classname(ABC):
+	pass
+	
+Abstract method:
+-----------------
+-An abstract method is a method that is declared but not implemented in the abstract class.
+-child classes must override and implement this method.
+
+Syntax:
+
+@abstractmethod
+def abstractmethod_name(self):
+	pass
+
+2. Encapsulation:
+------------------
+-Binding data (variables) and methods(functions) together into a single unit.
+
+Key pointer:
+------------
+1. protecting sensetive data
+2. preventing accidental function
+3. controlling the access of the variables using methods
+4. improve the maintainability
+
+Access specifier:
+------------------
+1. private variable:(__var) : within the class
+Ex: __accno, __bal
+ 
+2. protected variables (_var) : use in child classes
+Ex: _bal, _speed
+
+3. public variables (var) : use anywhere
+Ex: bal, speed, pi
+
+Rules to implement Encapsulation:
+---------------------------------
+1. sensetive data should be private
+2. access should be given through setter/getter methods
+3. avoids direct modification of important variables.
+
+Day 5 : OOPS in Python
+----------------------------------
+Date: 17/03/2026
+Topics:
+    
+	-OOPs Pillars
+	-Encapsulation
+	-Abstraction
+	-Inheritance
+	-Polymorphism
+
+Encapsulation:
+---------------
+Ex: 
+
+class Employee
+--------------
+name
+sal
+--------------
+display()
+
+Ex: 2
+class Employee:
+    def __init__(self,name,sal):
+        self.__name =  name
+        self.__sal = sal   
+        
+   #Getter method : read data
+    def get_sal(self):
+        return self.__sal
+    
+    def set_sal(self, amount):
+        if amount > 0:
+            self.__sal  = amount
+        else:
+            print("Invalid salary !!!!")
+    
+    def display(self):
+        print(self.__name)
+        print(self.__sal)
+
+emp = Employee("Rahul", 40000)
+emp.display()
+emp.set_sal(70000) #setter
+#emp.display()
+print("Updated sal = ",emp.get_sal()) #getter
+
+
+Ex:3
+
+#@property ans @setter
+class Employee:
+    def __init__(self,name,sal):
+        self.__name =  name
+        self.__sal = sal   
+        
+    @property
+    def salary(self):
+        return self.__sal
+    
+    @salary.setter
+    def salary(self, amount):
+        if amount > 0:
+            self.__sal  = amount
+        else:
+            print("Invalid salary !!!!")
+    
+    def display(self):
+        print(self.__name)
+        print(self.__sal)
+
+emp = Employee("Rahul", 40000)
+emp.display()
+print("Salary =",emp.salary)
+
+emp.salary = 55000
+print("Updated Salary =",emp.salary)
+
+
+@property:
+---------
+-It is a python decorator used to convert a method into a read-only attribute.
+-It allows a method to be accessed like a variable instead of  a function.
+-It is commonly used in Encapsulation to access private variables safely.
+
+Key pointer:
+--------------
+1. Allow method access without parenthesis.
+2. It works with private variables(__sal)
+3. It works together with
+	@property ---> getter
+	@property_name.setter --->setter
+	@property_name.deleter ----> delete the method
+	
+Syntax:
+ @property
+ def attribute_name(self):
+	return value
+
+
+Abstract class Key pointers:
+---------------------------
+-ABC is used to create abstract base class
+-@abstractmethod is used to declare abstract method
+-Abstract class object cannot be created
+-Child class must implement all abstract methods
+-Abstract class can contain:
+	-normal methods
+	-abstract methods
+	-constructors
+	-abstract class methods
+	-abstract static methods
+	-abstract property
+
+Application :
+
+Vehicle abstract class, 
+	-method start()
+	-method stop()
+child class Motorbike
+
+class Vehicle(ABC):
+
+	@abstractmethod
+	def start(self):
+		pass
+		
+	@abstractmethod
+	def stop(self):
+		pass
+	
+class Motorbike(Vehicle):
+
+	
+	def start(self):
+		print("Started")
+		
+	
+	def stop(self):
+		print("stop")
+
+c = Motorbike()
+c.start()
+c.stop()
+
+Inheritance:
+-------------
+-Inheritance is an OOP concept where one class (child class) acquires the properties and methods of another class(Parent class)
+-Parent class / Base class /Super class
+-Child / Base class / sub class
+
+
+-Real world entity:
+Ex: 
+
+Syntax:
+-------
+class Parentclassname:
+	state1
+	
+class Childclass(Parentclassname)
+	state2
+	
+Advantages:
+------------
+-Code reuse
+-Reduced code duplication
+-Easy maintenance
+-Logical program structure
+-Supports hierarchical relationship
+
+Types of Inheritance:
+---------------------
+1. Single inheritance
+2. Multiple inheritance
+3. Multilevel inheritance
+4. Hierarchical inheritance
+5. Hybrid inheritance
+
+
+1. Single inheritance:
+----------------------
+-A child class inherits properties and methods from only one parent class
+-Child clas  can access the methods of parent class.
+-This is the simplestform of inheritance
+
+2. Multiple inheritance:
+------------------------
+-A child class inherits properties and methods from more than one parent class.
+-Child class can access members of all parent class
+-Multiple inheritance is supported in python
+class A:
+    def m1(self):
+        print("m1() : parent class 1")
+        
+class B:
+    def m2(self):
+        print("m2() : parent class 2")
+        
+class C(A,B):
+    def m3(self):
+        print("m3() : child class")
+c = C()
+c.m1()
+c.m2()
+c.m3()
+#-----
+c = B()
+#c.m1() 
+c.m2()
+#c.m3()
+#-----
+c = A()
+c.m1()
+#c.m2()
+#c.m3()
+
+3. Multilevel inheritance:
+---------------------------
+-Inheritance occurs in multiple levels.
+-In multiple inheritance one class inherits from another derived class
+
+4. Hierarchical inheritance:
+----------------------------
+-Multiple child classes inherits properties and methods from one parent class.
+
+5. Hybrid inheritance:
+----------------------
+-It is a combination of two or more inheritance
+-It may combine hierarchical and multiple inheritance
+-It is more complex than other types of inheritance
+
+Method overriding:
+------------------
+-It means child class provides its own version of parent class.
+-The same method name is used in both parent and child class.
+-Child class method gets priority to execute
+
+super():
+-Super() is used to call parent class method fro, child class.
+-It helps to avaid rewriting code.
+-It is useful when child class wants to extend parent behaviour.
+
+Is-A relationship:
+------------------
+-It is relationship defines inheritance
+-One class is a specialized form of another class
+-Child class is a type of parent class
+-Meaning : Single inheritance B(A) : Bclass is-a Aclass
+-Ex: 
+	-Car is a vehicle
+	-Manager is a Employee
+
+Has-A relationship:
+-------------------
+-It means one class contains object of another class
+-It is achieved using composition and agrregation
+-One object uses another object as a member
+-Meaning: B HAS-A A
+-Ex:
+	-Car has a engine
+	-Employee has a address
+	
+
+
+class A:
+   
+    def m1(self):
+        print("Class A : m1()")
+        
+class B:
+    def __init__(self):
+        self.s1 = A() # B Has-A A
+    def m2(self):
+        print("Class B : m2()")
+        self.s1.m1()
+        
+s = B()
+s.m2()
+
+Day 6 : OOPS in Python
+----------------------------------
+Date: 18/03/2026
+Topics:
+    
+	-OOPs Pillars
+	-Inheritance
+	-IS-A & HAS-A relationship
+	-Polymorphism
+	-Exception Handling
