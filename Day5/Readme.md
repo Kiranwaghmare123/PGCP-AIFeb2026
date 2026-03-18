@@ -147,4 +147,59 @@ Derived classes:
 Override the `send()` method in each subclass.
 Call method using base class reference and explain output.
 
+
 ---
+
+### **Q9. Library Management System**
+
+Create the following class structure:
+
+* Base class:
+
+  * `Book`
+
+    * Method: `getDetails()`
+
+* Derived classes:
+
+  * `PrintedBook`
+
+    * Additional attribute: `pages`
+  * `EBook`
+
+    * Additional attribute: `file_size`
+
+**Tasks:**
+
+1. Implement all classes using inheritance.
+2. Override the `getDetails()` method in both derived classes to display specific details.
+3. Create objects of both types and call methods using a **base class reference**.
+4. Explain how **runtime polymorphism** is achieved in this system.
+
+---
+
+### **Q10. Transport Fare System**
+
+Create:
+
+* Base class:
+
+  * `Transport`
+
+    * Method: `calculateFare(distance)`
+
+* Derived classes:
+
+  * `Bus`
+  * `Train`
+  * `Taxi`
+
+ **Tasks:**
+
+1. Override `calculateFare()` in each subclass with different fare logic.
+2. Accept distance as input and calculate fare dynamically.
+3. Demonstrate calling the method using a **common reference variable**.
+4. Explain how **method overriding enables polymorphism** in this example.
+
+---
+
