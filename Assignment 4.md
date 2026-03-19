@@ -210,10 +210,4 @@ If conversion fails:
 raise TypeError("Custom conversion failed") from e
 ```
 
-
-
-
-
----
-
-If you want, I can next turn this into a **full assignment sheet with question numbers, marks, and submission format**, or I can also provide **solutions for all 10 questions**.
+.
