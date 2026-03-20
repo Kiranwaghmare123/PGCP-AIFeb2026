@@ -120,3 +120,58 @@ Perform:
 
 ## Q17. Count Plot
 - Count number of students per city
+---
+Great choice—this is a **very important practical area** (DB + Python is asked in lab exams a lot!) 🔥
+Here are **3 well-structured assignment questions** covering **Database Programming + Python + CRUD**.
+
+---
+
+# 📘 Assignment – Database Programming using Python
+
+## Q1. Student Management System (CRUD Operations)
+
+Design a **Python program using MySQL/SQLite** to manage student records.
+
+### Requirements:
+
+* Create a table `students` with fields:
+
+  * `id` (Primary Key)
+  * `name`
+  * `age`
+  * `course`
+
+### Perform the following operations:
+
+* Insert 5 student records
+* Display all records
+* Update course of a student
+* Delete a student by ID
+* Search student by name
+
+
+
+## Q2. Employee Database with Menu-Driven Program
+
+Create a **menu-driven Python application** to manage employee data.
+
+### Table: `employee`
+
+* `emp_id` (Primary Key)
+* `name`
+* `department`
+* `salary`
+
+### Menu Options:
+
+1. Add Employee
+2. View All Employees
+3. Update Salary
+4. Delete Employee
+5. Exit
+
+### Additional Tasks:
+
+* Display highest paid employee
+* Count employees per department
+
