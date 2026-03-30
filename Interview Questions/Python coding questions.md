@@ -2,7 +2,7 @@
 
 ---
 
-# 1. Basic Coding Problems (1–15)
+# 1. Basic Coding Problems 
 
 1. Swap two numbers without using a third variable
 2. Check if a number is prime
@@ -22,7 +22,7 @@
 
 ---
 
-# 2. String-Based Problems (16–30)
+# 2. String-Based Problems 
 
 16. Reverse a string
 17. Check palindrome string
@@ -42,7 +42,7 @@
 
 ---
 
-# 3. List / Array Problems (31–50)
+# 3. List / Array Problems 
 
 31. Find largest and smallest element
 32. Reverse a list
@@ -67,7 +67,7 @@
 
 ---
 
-# 4. Dictionary & Set Problems (51–60)
+# 4. Dictionary & Set Problems 
 
 51. Count frequency using dictionary
 52. Group anagrams
@@ -82,7 +82,7 @@
 
 ---
 
-# 5. Stack & Queue Problems (61–70)
+# 5. Stack & Queue Problems 
 
 61. Implement stack using list
 62. Implement queue using list
@@ -97,7 +97,7 @@
 
 ---
 
-# 6. Recursion & Backtracking (71–80)
+# 6. Recursion & Backtracking 
 
 71. Tower of Hanoi
 72. Generate permutations
@@ -112,7 +112,7 @@
 
 ---
 
-# 7. Searching & Sorting (81–90)
+# 7. Searching & Sorting 
 
 81. Binary search
 82. Merge sort
@@ -127,7 +127,7 @@
 
 ---
 
-# 8. Trees & Graphs (91–100)
+# 8. Trees & Graphs 
 
 91. Tree traversals (inorder, preorder, postorder)
 92. Level order traversal (BFS)
