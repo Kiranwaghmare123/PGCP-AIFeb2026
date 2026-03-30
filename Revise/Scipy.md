@@ -132,6 +132,3 @@
 * `constants.G` → Gravitational constant
 * `constants.h` → Planck constant
 
-
-* **real-world examples (ML, physics, finance)**, or
-* a **comparison with NumPy functions**.
