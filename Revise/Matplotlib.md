@@ -105,5 +105,3 @@
 * `ArtistAnimation()` → Animation from frames
 
 
-h code examples)**, or
-* a **comparison with Seaborn** for higher-level visualization.
