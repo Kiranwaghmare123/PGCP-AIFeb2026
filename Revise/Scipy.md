@@ -132,16 +132,6 @@
 * `constants.G` → Gravitational constant
 * `constants.h` → Planck constant
 
----
-
-## Summary
-
-* **Core computation** → `linalg`, `optimize`, `integrate`
-* **Data analysis** → `stats`, `interpolate`
-* **Engineering/science** → `signal`, `fft`, `spatial`
-* **Specialized math** → `special`, `constants`, `sparse`
-
----
 
 * **real-world examples (ML, physics, finance)**, or
 * a **comparison with NumPy functions**.
