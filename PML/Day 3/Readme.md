@@ -1,3 +1,29 @@
+## Interview Questions
+    1. What is data preprocessing in Machine Learning? 
+    2. Why is data preprocessing important? 
+    3. What are the main steps involved in data preprocessing? 
+    4. What is data cleaning? 
+    5. What are missing values? 
+    6. What are noisy data? 
+    7. What is data transformation? 
+    8. What is data reduction? 
+    9. What is feature engineering? 
+    10. What is feature selection? 
+    11. What are different types of missing data (MCAR, MAR, MNAR)? 
+    12. How do you detect missing values in a dataset? 
+    13. What are common techniques to handle missing data? 
+    14. When would you drop rows vs impute values? 
+    15. What is mean/median/mode imputation? 
+    16. What is forward fill and backward fill? 
+    17.What is interpolation? 
+    18. How does missing data affect model performance? 
+    19. What are advanced imputation techniques (e.g., KNN imputation)? 
+    20. What are the risks of improper imputation? 
+
+
+
+
+
 ## Ex 1: ecommerce_sales.csv
     OrderID,Date,CustomerID,Region,Product,Category,Price,Quantity,Discount,Revenue
     1001,2024-01-05,C001,North,Laptop,Electronics,800,1,0.10,720
