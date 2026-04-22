@@ -1,4 +1,4 @@
-## Ex 1:ecommerce_sales.csv
+## Ex 1: ecommerce_sales.csv
     OrderID,Date,CustomerID,Region,Product,Category,Price,Quantity,Discount,Revenue
     1001,2024-01-05,C001,North,Laptop,Electronics,800,1,0.10,720
     1002,2024-01-07,C002,South,Phone,Electronics,500,2,0.05,950
@@ -10,3 +10,15 @@
     1008,2024-01-22,C002,West,Headphones,Electronics,120,1,0.05,114
     1009,2024-01-25,C007,North,Shoes,Fashion,90,2,0.15,153
     1010,2024-01-28,C008,South,Laptop,Electronics,850,1,0.10,765
+
+## Ex 2: Ex 2:weather_data.csv
+
+    date,temperature,windspeed,humidity,event
+    2024-01-01,32,6,80,Rain
+    2024-01-02,35,7,70,Sunny
+    2024-01-03,28,2,90,Snow
+    2024-01-04,24,7,85,Snow
+    2024-01-05,32,4,75,Rain
+    2024-01-06,31,2,60,Sunny
+    2024-01-07,30,5,65,Cloudy
+    2024-01-08,29,3,88,Rain
