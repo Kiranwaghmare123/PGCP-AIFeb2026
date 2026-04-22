@@ -33,3 +33,68 @@
         "humidity": [80,70,90,85,75,60,65,88],
         "event": ["Rain","Sunny","Snow","Snow","Rain","Sunny","Cloudy","Rain"]
     }
+
+## Ex 4:
+        data = {
+        "Name": ["A", "B", "C", "D"],
+        "Age": [25, np.nan, 30, np.nan],
+        "Marks": [80, 90, np.nan, 85]
+    }
+
+## Ex 5:
+
+        data = {
+            "City": ["Mumbai", "Delhi", np.nan, "Mumbai", np.nan]
+        }
+
+## Ex 6:
+    data = {
+        "Time": ["T1", "T2", "T3", "T4"],
+        "Temp": [30, np.nan, np.nan, 35]
+    }
+
+## Ex 7:
+    data = {
+        "ID": [1, 2, 2, 3],
+        "Name": ["Amit", "Riya", "Riya", "John"],
+        "Marks": [80, 90, 90, 85]
+    }
+
+## Ex 8:
+
+    data = {
+        "Date": ["01-12-2025", "2025/12/02", "Dec 3, 2025"]
+    }
+
+## Ex 9:
+    data = {
+        "Weight": [70, 154, 65],  # kg and pounds mixed
+    }
+
+## Ex 10:
+    data = {
+        "City": ["Mumbai", "mumbai", "MUMBAI", "Delhi"]
+    }
+
+## Ex 11:
+
+    data = {
+        "Gender": ["Male", "M", "male", "Female", "F"]
+    }
+
+## Ex 12:
+    data = {
+        "Salary": ["₹50,000", "$600", "70000"]
+    }
+
+## Ex 13:
+    data = {
+        "Phone": ["+91-9876543210", "98765 43210", "09876543210"]
+    }
+
+## Ex 14:
+
+    data = {
+        "Distance": ["5 km", "5000 m", "3 km"]
+    }
+
