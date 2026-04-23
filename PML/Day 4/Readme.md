@@ -1,4 +1,4 @@
-<img width="1801" height="1067" alt="image" src="https://github.com/user-attachments/assets/89976bf8-e3c7-48d0-b0d9-f1b2e308a697" />## Home-work
+## Home-work
     Ex: 1 Read the data and prepare the the insignts with complete preprocessing, Feature selection and EDA operations
     data = {
         'Income': [np.nan, 60000, 55000, np.nan, 65000],
