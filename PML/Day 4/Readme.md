@@ -164,35 +164,36 @@
     Build a custom joint plot using JointGrid.
 
 ## Daily, Practice Interview Questions
-1. What are outliers? 
-2. How do you detect outliers (Z-score, IQR)? 
-3. How do you handle outliers? 
-4. What is data smoothing? 
-5. What is binning? 
-6. What is noise reduction? 
-7. What is duplicate data and how do you handle it? 
-8. What is data consistency? 
-9. What is data validation? 
-10. What tools do you use for data cleaning? 
-11. What is feature scaling? 
-12. Why is feature scaling necessary? 
-13. What is normalization? 
-14. What is standardization? 
-15. Difference between normalization and standardization? 
-16. What is Min-Max scaling? 
-17. What is Z-score scaling? 
-18. When should you scale data? 
-19. Which algorithms require feature scaling? 
-20. What happens if you don’t scale data? 
-21.What is categorical data? 
-22. What is label encoding? 
-23. What is one-hot encoding? 
-24. What are the drawbacks of one-hot encoding? 
-25. When would you use label encoding vs one-hot encoding? 
-26. What is data leakage? 
-27. How do you prevent data leakage during preprocessing? 
-28. What is a preprocessing pipeline? 
-29. Why should preprocessing be done after train-test split? 
-30. What is feature engineering with examples? 
+
+    1. What are outliers? 
+    2. How do you detect outliers (Z-score, IQR)? 
+    3. How do you handle outliers? 
+    4. What is data smoothing? 
+    5. What is binning? 
+    6. What is noise reduction? 
+    7. What is duplicate data and how do you handle it? 
+    8. What is data consistency? 
+    9. What is data validation? 
+    10. What tools do you use for data cleaning? 
+    11. What is feature scaling? 
+    12. Why is feature scaling necessary? 
+    13. What is normalization? 
+    14. What is standardization? 
+    15. Difference between normalization and standardization? 
+    16. What is Min-Max scaling? 
+    17. What is Z-score scaling? 
+    18. When should you scale data? 
+    19. Which algorithms require feature scaling? 
+    20. What happens if you don’t scale data? 
+    21.What is categorical data? 
+    22. What is label encoding? 
+    23. What is one-hot encoding? 
+    24. What are the drawbacks of one-hot encoding? 
+    25. When would you use label encoding vs one-hot encoding? 
+    26. What is data leakage? 
+    27. How do you prevent data leakage during preprocessing? 
+    28. What is a preprocessing pipeline? 
+    29. Why should preprocessing be done after train-test split? 
+    30. What is feature engineering with examples? 
 
 
