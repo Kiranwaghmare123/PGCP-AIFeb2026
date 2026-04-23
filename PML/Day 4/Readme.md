@@ -8,7 +8,30 @@
         'Last_Login': ['2023-01-01', '2023-02-10', '2023-01-15', '2023-01-20', '2023-02-01'],
         'Purchased': [1, 0, 1, 0, 1]
     }
+
+    Ex 1: 
+    data = {
+        'age': [25, np.nan, 35, 45, 55, 65, 75, 85, 95, 105],
+        'salary': [50000, 60000, np.nan, 80000, 90000, 100000, 110000, 120000, np.nan, 140000],
+        'gender': ['Male', 'Female', np.nan, 'Female', 'Male', 'Female', 'Male', 'Male', 'Female', 'Male'],
+        'purchased': ['No', 'Yes', 'No', 'No', 'Yes', 'Yes', 'No', 'Yes', 'No', 'Yes']
+    }
     
+    Ex 2: Column Transform: pipelining
+    
+    Ex 3: data.csv
+    Country,Age,Salary,Purchased
+    France,44,72000,No
+    Spain,27,48000,Yes
+    Germany,30,54000,No
+    Spain,38,61000,No
+    Germany,40,,Yes
+    France,35,58000,Yes
+    Spain,,52000,No
+    France,48,79000,Yes
+    Germany,50,83000,No
+    France,37,67000,Yes
+
     Ex:
     df = pd.DataFrame({
         'A': np.random.rand(10),
