@@ -1,6 +1,6 @@
 ## Homework:
 
-# Ex 1:
+# Ex 1: Implement the given dataset with preprocessing, EDA and ML Modelling.
     data = {
         'age': [25, 35, 45, 55, 65, 75, 85, 95, 26, 36, 46, 56, 66, 76, 86, 96, 27, 37, 47, 57, 67, 77, 87, 97, 28, 38, 48, 58, 68, 78, 88, 98],
         'experience': [1, 3, 5, 7, 9, 11, 13, 15, 2, 4, 6, 8, 10, 12, 14, 16, 3, 5, 7, 9, 11, 13, 15, 17, 4, 6, 8, 10, 12, 14, 16, 18],
@@ -8,7 +8,7 @@
     }
 
 
-# Ex 2:
+# Ex 2: Implement the given dataset with preprocessing, EDA and ML Modelling with optimization.
     data = {
         'age': [25, 35, 45, 55, 65, 75, 85, 95],
         'experience': [1, 3, 5, 7, 9, 11, 13, 15],
