@@ -1,16 +1,79 @@
-## GRaph
-    from matplotlib.colors import ListedColormap
-    X_set, y_set = sc.inverse_transform(X_train), y_train
-    X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 10, stop = X_set[:, 0].max() + 10, step = 1),
-                         np.arange(start = X_set[:, 1].min() - 1000, stop = X_set[:, 1].max() + 1000, step = 1))
-    plt.contourf(X1, X2, classifier.predict(sc.transform(np.array([X1.ravel(), X2.ravel()]).T)).reshape(X1.shape),
-                 alpha = 0.75, cmap = ListedColormap(('blue', 'orange')))
-    plt.xlim(X1.min(), X1.max())
-    plt.ylim(X2.min(), X2.max())
-    for i, j in enumerate(np.unique(y_set)):
-        plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1], c = ListedColormap(('red', 'green'))(i), label = j)
-    plt.title('K-NN (Training set)')
-    plt.xlabel('Age')
-    plt.ylabel('Estimated Salary')
-    plt.legend()
-    plt.show()
+## Homework
+
+## **Question 1: KNN for Classification (Pass/Fail Prediction)**
+
+### **Problem Statement**
+
+You are given a dataset of students with their study hours and attendance percentage. Build a KNN classifier to predict whether a student will **Pass (1)** or **Fail (0)**.
+
+* Use **K = 3**
+* Use **Euclidean distance**
+* Predict the result for:
+
+  * Study Hours = 5
+  * Attendance = 75
+
+
+### **Dataset (students.csv)**
+
+```csv
+StudyHours,Attendance,Result
+1,50,0
+2,55,0
+3,60,0
+4,65,1
+5,70,1
+6,75,1
+7,80,1
+8,85,1
+```
+### **Tasks**
+
+1. Load the dataset.
+2. Implement KNN from scratch (do not use libraries like sklearn).
+3. Normalize the data (optional but recommended).
+4. Compute distances and find nearest neighbors.
+5. Predict the class of the new student.
+
+---
+
+## **Question 2: KNN for Regression (House Price Prediction)**
+
+### **Problem Statement**
+
+You are given a dataset of houses with size and number of bedrooms. Use KNN regression to predict the **price** of a house.
+
+* Use **K = 2**
+* Use **Euclidean distance**
+* Predict price for:
+
+  * Size = 1200 sq ft
+  * Bedrooms = 3
+
+### **Dataset (houses.csv)**
+
+```csv
+Size,Bedrooms,Price
+800,2,150000
+900,2,180000
+1000,3,200000
+1100,3,220000
+1300,3,260000
+1500,4,300000
+```
+
+### **Tasks**
+
+1. Load the dataset.
+2. Implement KNN regression from scratch.
+3. Calculate distances to all points.
+4. Pick K nearest neighbors.
+5. Predict price as the **average of neighbors' prices**.
+
+---
+
+
+
+
+
+If you want, I can also provide **sample Python solutions** or convert these into **interview-style questions with expected outputs**.
