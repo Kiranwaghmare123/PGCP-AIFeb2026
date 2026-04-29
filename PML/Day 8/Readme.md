@@ -42,3 +42,22 @@
     
     # Labels: 1 = Positive, 0 = Negative
     labels = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+## Daily, Interview Questions
+1. What is the Naive Bayes algorithm, and why is it called “naive”?
+2. Explain Bayes’ Theorem and how it is used in classification.
+3. What are the assumptions made by Naive Bayes?
+4. Why does Naive Bayes perform well despite the independence assumption being unrealistic?
+5. What is the difference between prior, likelihood, and posterior probabilities?
+6. What are the different types of Naive Bayes classifiers?
+   * Gaussian Naive Bayes
+   * Multinomial Naive Bayes
+   * Bernoulli Naive Bayes
+7. When would you use:
+8. Gaussian NB vs Multinomial NB?
+9. How does Gaussian Naive Bayes handle continuous data?
+10. What distribution assumption is made in Gaussian NB?
+11. Why is Naive Bayes commonly used in text classification?
+12. How is it applied in spam filtering?
+13. What is the role of word frequency in Multinomial Naive Bayes?
+14. How does Naive Bayes handle high-dimensional data?
+15. Can Naive Bayes be used for real-time prediction? Why?
