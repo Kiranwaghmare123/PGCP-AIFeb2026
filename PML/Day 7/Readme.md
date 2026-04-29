@@ -72,8 +72,27 @@ Size,Bedrooms,Price
 
 ---
 
+##  Daily Interview Questions:
+
+1. What is the K-Nearest Neighbors (KNN) algorithm?
+2. Is KNN a parametric or non-parametric model? Why?
+3. Why is KNN called a lazy learner?
+4. How does KNN perform classification vs regression?
+5. What are the main steps involved in KNN?
+6. What distance metrics are commonly used in KNN?
+    Euclidean
+    Manhattan
+    Minkowski
+7. When would you prefer Manhattan distance over Euclidean?
+8. How does the choice of distance metric affect performance?
+9. What happens if features are on different scales?
+10. How do you choose the optimal value of k?
+11. Why is feature scaling important in KNN?
+12. What preprocessing steps are required before applying KNN?
+13. How do you handle categorical variables in KNN?
+14. What is the time complexity of KNN during:
+     Training
+     Prediction
+15. What is the curse of dimensionality and how does it affect KNN?
 
 
-
-
-If you want, I can also provide **sample Python solutions** or convert these into **interview-style questions with expected outputs**.
