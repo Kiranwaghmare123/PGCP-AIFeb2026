@@ -182,3 +182,22 @@ Tasks:
     plt.xlabel('Age (scaled)')
 plt.ylabel('Salary (scaled)')
 plt.show()
+---
+
+## Daily, preparation question
+1. What is a decision tree? How does it work?
+2. What are the main components of a decision tree (root, node, leaf, branch)?
+3. What types of problems can decision trees solve?
+4. Difference between classification and regression trees.
+5. What is overfitting in decision trees?
+6. What is entropy in decision trees?
+7. What is Information Gain?
+8. What is Gini Index? How is it different from entropy?
+9. Explain how the ID3 algorithm works.
+10. What are the limitations of ID3 algorithm?
+11. How do you handle missing values in decision trees?
+12. How do decision trees handle categorical vs numerical data?
+13. What is tree pruning and why is it needed?
+14. Difference between pre-pruning and post-pruning.
+15. How do you avoid overfitting in decision trees?
+16. What happens if your tree is too deep?
